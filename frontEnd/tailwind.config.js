@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "exo" : ["'Exo 2'", "sans-serif"],
+        "jaro" : ["'Jaro'", "sans-serif"],
+        "pt-serif" : ["'PT Serif'", "serif"],
+      }
+    },
   },
   plugins: [],
 }
